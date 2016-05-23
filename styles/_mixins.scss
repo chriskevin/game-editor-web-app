@@ -1,0 +1,5 @@
+@mixin message($text) {
+    &:before {
+        content: $text;
+    }
+}

@@ -1,0 +1,8 @@
+@import "_mixins";
+
+$red: #FF0000;
+
+.body {
+    background-color: $red;
+    @include message("Hello World");
+}
