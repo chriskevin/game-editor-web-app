@@ -1,3 +1,22 @@
+# IDE/Editors
+.idea/*
+*.iml
+tmp/*
+
+# Bower
 bower_components/
-build/
-node_modules/
+
+# Node.js
+node_modules/*
+npm-debug.log
+
+# Generated output
+build/*
+!build/index.html
+coverage/*
+docs/*
+
+# Other
+.DS_Store
+config.codekit
+**/*.suo
